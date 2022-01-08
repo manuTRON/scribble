@@ -1,0 +1,45 @@
+.draw_area {
+  width: fit-content;
+  margin: 10px auto;
+}
+
+.tools {
+  padding: 10px;
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.tools > div > button {
+  justify-content: space-between;
+  font-size: 30px;
+  border: 0px;
+  background: transparent;
+  transition: 200ms ease-in-out;
+}
+.tools > div > button:hover {
+  box-shadow: 0 4px 10px rgba(22, 22, 22, 0.5);
+  transform: scale(1.2);
+}
+
+.canvas {
+  cursor: url("./dot.svg"), auto;
+}
+.foo {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: chocolate;
+}
+.foo:hover {
+  box-shadow: 0 4px 10px rgba(22, 22, 22, 0.5);
+  transform: scale(1.2);
+}
+
+.color-palate {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}

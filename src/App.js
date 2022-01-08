@@ -1,13 +1,16 @@
 import React from 'react'
-import { Canvas } from './Canvas'
-import { ClearCanvasButton } from './ClearCanvasButton';
+import 'bootstrap/dist/css/bootstrap.css'
+import Canvas from './Canvas';
+import Header from"./Header"
 
 function App() {
+  
+
   return (
-    <>
-      <Canvas/>
-      <ClearCanvasButton/>
-    </>
+    <div className='App'>
+      {/* <Header /> */}
+      <Canvas />
+    </div>
   );
 }
 
